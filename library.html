@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Your Library</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <!--navbar-->
+
+        <section id="header">
+            <a href="#"><img src="Images/Logo.png" class="logo" alt="Spotify" style="width:60px"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="library.html">Your Library</a></li>
+                    <li><input type="text" placeholder="Search.."><Button>Search</Button></li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!--Body-->
+        
+        <section id="library" class="lib">
+            <h2>Your Library</h2>
+        </section>
+        <section id="Songs" class="Songs-1">
+            <h2>Add Songs</h2>
+            <div>
+                <form class="for-1">
+                    <label for="Song Name">Song Name - </label>
+                    <input type="text" name="songname" value=""><br>
+                    <label for="Date">Date Released -</label>
+                    <input type="date" name="datereleased"><br>
+                    <label for="Album Cover">Album Cover -</label>
+                    <input type="file" name="albumcover"><br>
+                    <label for="Artist Name" >Artist Name - </label>
+                    <input type="text" name="artistname"><br>
+                    <input type="reset" value="Rest">
+                    <button>Submit</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

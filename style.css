@@ -1,0 +1,131 @@
+
+body{
+    width: 100%;
+    background-color: #413F42;
+}
+
+#header{
+    display: flex;
+    allign-item: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #171717;
+    box-shadow: 0 5px 15px rgb(0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #E8E8E8;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+color: #ffffff;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+content: "";
+width: 30%;
+height: 2px;
+background-color: #E8E8E8;
+position: absolute;
+bottom: -4px;
+left: 20px;
+}
+
+/*Body*/
+
+#Headphone h2{
+    text-align: center;
+    font-size: 50px;
+    color: #E8E8E8;
+    background-color: #000000;
+    padding: 20px;
+}
+
+th{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #171717;
+    padding: 10px;
+}
+
+tr{
+    color: #000000;
+    background-color: #7F8487;
+    padding: 10px;
+}
+
+.ra
+
+#Singer h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    background-color: #000000;
+    color: #E8E8E8;
+    margin-bottom: -115px;
+}
+
+
+/*library*/
+
+#library{
+    text-align: center;
+    font-size: 40px;
+    color: #E8E8E8;
+    background-color: #000000;
+}
+
+#Songs h2{
+    color: #E8E8E8;
+    background-color: #000000;
+    padding: 5px;
+    font-size: 28px;
+}
+
+#Songs form{
+    color: #E8E8E8;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+#Songs .for-1{
+    line-height: 100px;
+}
+
+hr{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 4px;
+    background: #000000;
+    margin-bottom: 50px;
+}
+
+#Add{
+    color: black;
+    font-size: 20px;
+}
